@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('programming-background-with-person-working-with-codes-computer_23-2150010125.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Asegura que la imagen cubra toda el área del body */
+    background-attachment: fixed; /* Hace que la imagen de fondo no se mueva cuando se hace scroll */
+    background-position: center; /* Centra la imagen de fondo */
+    margin: 0; /* Elimina el margen por defecto del body */
+    padding: 0; /* Elimina el padding por defecto del body */
+}
+
+/* Cambia el color de fondo de la barra de navegación */
+.custom-navbar {
+    background-color: #343a40; /* Un gris oscuro, puedes ajustar el valor según prefieras */
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .navbar-nav .nav-link {
+    color: #ffffff; /* Color del texto para contraste */
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+    color: #ddd; /* Color del texto cuando se pasa el ratón sobre el enlace */
+}
+
+
+.profile-section {
+    background-color: #393737;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    margin: 100px auto; /* Centra la sección en la página, considerando la barra de navegación fija */
+}
+
+.profile-section img.profile-image {
+    width: 150px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: 150px;
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor */
+    margin-bottom: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.profile-section h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+.profile-section p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+
+.social-media {
+    background-color: #424040;
+    width: 100%;
+    height: 130px;
+    display: flex; /* Usa flexbox para alinear los iconos */
+    justify-content: center; /* Centra los iconos horizontalmente */
+    align-items: center; /* Centra los iconos verticalmente */
+    flex-wrap: wrap; /* Permite que los iconos se envuelvan si no caben en una sola línea */
+}
+
+#linkedin, #facebook, #instagram, #github {
+    width: 100px; /* Ancho de los iconos */
+    margin: 0 10px; /* Espacio horizontal entre los iconos */
+}
+
+#facebook {
+    border-radius: 20px; /* Esquinas redondeadas */
+}
+
+#spotify {
+    width: 150px;
+}
+
+#github {
+    width: 150px;
+}
+
+.accordion-button {
+    background-color: #333; /* Fondo oscuro para el botón del acordeón */
+    color: #fff; /* Color de texto blanco */
+    border: 1px solid #444; /* Borde ligeramente más claro que el fondo */
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #555; /* Fondo más claro para el botón cuando está expandido */
+    color: #fff; /* Color de texto blanco */
+}
+
+.accordion-button::after {
+    filter: invert(1); /* Cambia el color del ícono de colapso a blanco para contraste */
+}
+
+.accordion-item {
+    border: 1px solid #444; /* Borde de las secciones del acordeón */
+}
+
+.accordion-body {
+    background-color: #222; /* Fondo oscuro para el cuerpo del acordeón */
+    color: #ddd; /* Texto claro para el cuerpo del acordeón */
+}
